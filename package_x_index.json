@@ -1,0 +1,56 @@
+{
+  "packages": [
+    {
+      "name": "X",
+      "maintainer": "XuanZhi",
+      "websiteURL": "https://github.com/StanleyC1/XCJXT",
+      "email": "support@xcjxt.com",
+      "help": {
+        "online": "https://github.com/StanleyC1/XCJXT/issues"
+      },
+      "platforms": [
+        {
+          "name": "XCJXT ESP32 Boards",
+          "architecture": "esp32",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/StanleyC1/XCJXT/releases/download/v1.0.0/x-esp32-boards-1.0.0.zip",
+          "archiveFileName": "x-esp32-boards-1.0.0.zip",
+          "checksum": "SHA-256:979A57BB5AD12705B3E4CBFB2DA9E3A8FB9AB3D5CA316C8C96476C2CB569F563",
+          "size": "8619",
+          "boards": [
+            {"name": "XCJXT"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "esp32",
+              "version": "3.3.10",
+              "name": "xtensa-esp32-elf-gcc"
+            },
+            {
+              "packager": "esp32",
+              "version": "3.3.10",
+              "name": "xtensa-esp32s2-elf-gcc"
+            },
+            {
+              "packager": "esp32",
+              "version": "3.3.10",
+              "name": "xtensa-esp32s3-elf-gcc"
+            },
+            {
+              "packager": "esp32",
+              "version": "3.3.10",
+              "name": "esp32-arduino-libs"
+            },
+            {
+              "packager": "esp32",
+              "version": "3.3.10",
+              "name": "esptool_py"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
